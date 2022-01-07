@@ -76,25 +76,68 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-            <form>
+            <form class="bg-dark">
               <p>Filter Search</p>
-              <ul class="list-group">
+              <ul class="list-group bg-dark">
                 <li class="list-group-item bg-dark">
-                  <label for="datetime">Enter Date</label>
-                  <input type="text" placeholder="1/10/2010" id="datetime" />
+                  <div class="form-group">
+                    <label for="datetime">Enter Date</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="1/1/2010"
+                      id="datetime"
+                    />
+                  </div>
                 </li>
                 <li class="list-group-item bg-dark">
-                  <button
-                    id="filter-btn"
-                    type="button"
-                    class="btn btn-dark btn-block"
-                  >
-                    Filter Table
-                  </button>
+                  <div class="form-group">
+                    <label for="city">Enter City</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="san diego"
+                      id="city"
+                    />
+                  </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                  <div class="form-group">
+                    <label for="state">Enter State</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="ca"
+                      id="state"
+                    />
+                  </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                  <div class="form-group">
+                    <label for="country">Enter Country</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="us"
+                      id="country"
+                    />
+                  </div>
+                </li>
+                <li class="list-group-item bg-dark">
+                  <div class="form-group">
+                    <label for="shape">Enter Shape</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="sphere"
+                      id="shape"
+                    />
+                  </div>
                 </li>
               </ul>
             </form>
           </div>
+
           <div class="col-md-9">
             <table class="table table-striped">
               <thead>
