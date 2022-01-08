@@ -4,31 +4,39 @@
 ### Purpose
 The purpose of this project is to analyze UFO sighting data and allow users to filter for criteria of `city`, `state`, `country`, and `shape`. A table is created with JavaScript to filter the data based on specific criteria. The table is fully dynamic and reacts to user input.
 
+[Click here to view the live project!](https://matin-n.github.io/UFOs/)
 
 ## Results
 ### How to perform a search
 #### Filter Search
 
-- Navigate to the Filter Search form and modify any of the following parameters:
-  - Date (MM/DD/YYYY)
-  - City (city name)
-  - State (two letter abbreviation)
-  - Country (two letter abbreviation)
-  - Shape  
+
+<details open><summary>Navigate to the Filter Search form and modify any of the following parameters </summary>
+
+- Date (MM/DD/YYYY)
+- City (city name)
+- State (two letter abbreviation)
+- Country (two letter abbreviation)
+- Shape  
 
 ![Filter Search](static/images/tutorial_1.png)
 
+</details>
 
 #### Clear Search
 There are two ways to clear the filters:
-1. Navigate to the Navbar Header and click on the "UFO Sightings"
+
+<details open><summary>Navigate to Navbar Header and click on "UFO Sightings"</summary>
 
 ![Clear Search 1](static/images/tutorial_2.png)
 
-2. Navigate to the Filter Search form and delete all of the parameters
+</details>
+
+<details open><summary>Navigate to Filter Search form and delete all of the parameters</summary>
 
 ![Clear Search](static/images/tutorial_3.png)
 
+</details>
 
 ## Summary
 The UFOs filter is a functional project; however, it has drawbacks to the design.
